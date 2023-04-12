@@ -1,7 +1,7 @@
 - name: Downloading the Elastic
   get_url:
     url: https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.7.0-linux-x86_64.tar.gz
-    dest: /tmp/elasticsearch-8.4.3-x86_64.rpm
+    dest: /tmp/elasticsearch-8.7.0-linux-x86_64.tar.gz
 
 - name: Installing elasticsearch
   yum:
